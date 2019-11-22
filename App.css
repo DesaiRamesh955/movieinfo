@@ -1,0 +1,44 @@
+.col-md-3 {
+  min-height: 390px;
+  max-width: 280px;
+  overflow: hidden;
+  padding: 0;
+  margin: 20px auto;
+}
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img {
+  overflow: hidden;
+  height: 300px;
+  width: 100%;
+}
+.img-responsive {
+  height: 300px;
+  width: 280px !important;
+}
+.content {
+  padding: 0 20px;
+}
+
+.content h5 {
+  padding: 10px 0;
+}
+.poster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+}
+.poster img {
+  margin: 0 auto;
+}
+.spinner{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
